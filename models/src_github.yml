@@ -121,7 +121,8 @@ sources:
             description: Foreign key that references the user table, referencing who created the current branch.
 
       - name: repo_team
-        description: Table representing the mapping relationships between repositiories and teams
+        description: Table representing the mapping relationships between repositories and teams
+        freshness: null
         columns:
           - name: repository_id
             description: Reference to the respective repository for the record.
